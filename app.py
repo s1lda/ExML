@@ -7,7 +7,6 @@ from sklearn.metrics import f1_score,accuracy_score,precision_score ,recall_scor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pickle 
-from lightgbm import LGBMClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
