@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy
 from sklearn.metrics import f1_score,accuracy_score,precision_score ,recall_score,roc_auc_score
 from sklearn.model_selection import train_test_split
-from xgboost import XGBClassifier
 from sklearn.preprocessing import StandardScaler
 import pickle 
 from lightgbm import LGBMClassifier
